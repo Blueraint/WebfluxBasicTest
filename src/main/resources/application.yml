@@ -1,0 +1,18 @@
+spring:
+  webflux:
+    hiddenmethod:
+      filter:
+        enabled: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      usermane: batchdev
+      password: batchdev
+      database: batchtest
+      auto-index-creation: true
+
+logging:
+  level:
+    root: INFO
+    com.spring.WebfluxTest: DEBUG
